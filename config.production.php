@@ -1,6 +1,9 @@
 <?php
 
 return [
-    'baseUrl' => 'https://my-jigsaw-blog.com',
+    'baseUrl' => 'https://andrijasagi.github.io/satori',
     'production' => true,
+    'build' => [
+        'destination' => '/satori',
+    ],
 ];
